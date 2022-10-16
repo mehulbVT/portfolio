@@ -10,16 +10,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by Sarthak Kahaliya</h3>
+          <h3>Developed by Mehul Bhanushali</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Sarthak Kahaliya</h3>
+          <h3>Copyright © {year} Mehul Bhanushali</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="s-icons">
               <a
-                href="mailto:sarthakkahaliya@vt.edu"
+                href="mailto:mehulb@vt.edu"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
             </li>
             <li className="s-icons">
               <a
-                href="https://github.com/SarthakKahaliya"
+                href="https://github.com/mehulbVT"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="s-icons">
               <a
-                href="https://www.linkedin.com/in/sarthak-kahaliya/"
+                href="https://www.linkedin.com/in/mehulb2203"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Footer() {
             </li>
             <li className="s-icons">
               <a
-                href="https://www.instagram.com/sarthak_kahaliya/"
+                href="https://www.instagram.com/n"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
