@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { HashLink } from "react-router-hash-link";
-// import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.png";
 
 import { Link } from "react-router-dom";
 
@@ -39,10 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/portfolio/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <h1 style={{ fontSize: "2.2em" }} className="main-name">
-            SK
-          </h1>
+          { <img src={logo} className="img-fluid logo" alt="brand" /> }
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
