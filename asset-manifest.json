@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4acdd049.css",
-    "main.js": "/portfolio/static/js/main.1a2745e6.js",
+    "main.css": "/portfolio/static/css/main.2f0978d8.css",
+    "main.js": "/portfolio/static/js/main.e5145d7a.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ecom-clothing.png": "/portfolio/static/media/ecom-clothing.df8b989ca36d7be06138.png",
@@ -12,15 +12,16 @@
     "static/media/Sarthak_Kahaliya_Resume_2022.pdf": "/portfolio/static/media/Sarthak_Kahaliya_Resume_2022.4c66e87425e0b129b3b6.pdf",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.4becba88388ee0dd22af.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.4acdd049.css.map": "/portfolio/static/css/main.4acdd049.css.map",
-    "main.1a2745e6.js.map": "/portfolio/static/js/main.1a2745e6.js.map",
+    "main.2f0978d8.css.map": "/portfolio/static/css/main.2f0978d8.css.map",
+    "main.e5145d7a.js.map": "/portfolio/static/js/main.e5145d7a.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4acdd049.css",
-    "static/js/main.1a2745e6.js"
+    "static/css/main.2f0978d8.css",
+    "static/js/main.e5145d7a.js"
   ]
 }
