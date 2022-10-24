@@ -11,11 +11,17 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #14A76C;
 }
 
-.purple {
+.green {
   color: var(--imp-text-color) !important;
+}
+
+.bolditalicgreen{
+  color: var(--imp-text-color) !important;
+  font-style: italic;
+  font-weight: bold;
 }
 
 button:focus {
@@ -311,6 +317,21 @@ button:focus {
   object-fit: none;
   object-position: 60% 43%;
   zoom: 25%;
+  border-radius: 10%;
+}
+
+.brianna-pic {
+  width: 1600px;
+  height: 1600px;
+  object-fit: none;
+  object-position: 60% 43%;
+  /* zoom: 25%; */
+  border-radius: 10%;
+}
+
+.team-pic {
+  width: 300px;
+  height: 300px;
   border-radius: 10%;
 }
 
