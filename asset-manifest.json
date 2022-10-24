@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b6aa778d.css",
-    "main.js": "/portfolio/static/js/main.67f0914f.js",
+    "main.css": "/portfolio/static/css/main.253251b8.css",
+    "main.js": "/portfolio/static/js/main.5a1bc1f9.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ecom-clothing.png": "/portfolio/static/media/ecom-clothing.df8b989ca36d7be06138.png",
@@ -10,18 +10,18 @@
     "static/media/bookstore.png": "/portfolio/static/media/bookstore.3b5e0afb7f2951191a68.png",
     "static/media/olympic.png": "/portfolio/static/media/olympic.938686ebd8a9ef9e598f.png",
     "static/media/Sarthak_Kahaliya_Resume_2022.pdf": "/portfolio/static/media/Sarthak_Kahaliya_Resume_2022.4c66e87425e0b129b3b6.pdf",
-    "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/brianna.jpeg": "/portfolio/static/media/brianna.d12b425e184a6f2755de.jpeg",
     "static/media/logo.png": "/portfolio/static/media/logo.4becba88388ee0dd22af.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.b6aa778d.css.map": "/portfolio/static/css/main.b6aa778d.css.map",
-    "main.67f0914f.js.map": "/portfolio/static/js/main.67f0914f.js.map",
+    "main.253251b8.css.map": "/portfolio/static/css/main.253251b8.css.map",
+    "main.5a1bc1f9.js.map": "/portfolio/static/js/main.5a1bc1f9.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6aa778d.css",
-    "static/js/main.67f0914f.js"
+    "static/css/main.253251b8.css",
+    "static/js/main.5a1bc1f9.js"
   ]
 }
