@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f0978d8.css",
-    "main.js": "/portfolio/static/js/main.e5145d7a.js",
+    "main.css": "/portfolio/static/css/main.b6aa778d.css",
+    "main.js": "/portfolio/static/js/main.67f0914f.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ecom-clothing.png": "/portfolio/static/media/ecom-clothing.df8b989ca36d7be06138.png",
-    "static/media/sarthak.jpg": "/portfolio/static/media/sarthak.82acab5d283af63a4358.jpg",
+    "static/media/team.png": "/portfolio/static/media/team.cb4d232b31ae86e42302.png",
     "static/media/tms.png": "/portfolio/static/media/tms.0637cf72811d7eef4de0.png",
     "static/media/bookstore.png": "/portfolio/static/media/bookstore.3b5e0afb7f2951191a68.png",
     "static/media/olympic.png": "/portfolio/static/media/olympic.938686ebd8a9ef9e598f.png",
@@ -15,13 +15,13 @@
     "static/media/logo.png": "/portfolio/static/media/logo.4becba88388ee0dd22af.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.2f0978d8.css.map": "/portfolio/static/css/main.2f0978d8.css.map",
-    "main.e5145d7a.js.map": "/portfolio/static/js/main.e5145d7a.js.map",
+    "main.b6aa778d.css.map": "/portfolio/static/css/main.b6aa778d.css.map",
+    "main.67f0914f.js.map": "/portfolio/static/js/main.67f0914f.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f0978d8.css",
-    "static/js/main.e5145d7a.js"
+    "static/css/main.b6aa778d.css",
+    "static/js/main.67f0914f.js"
   ]
 }
