@@ -8,15 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sarthak Kahaliya </span>
-            from <span className="purple"> Blacksburg, VA.</span>
-            <br />I am a grad student at Virginia Tech pursuing Master's in
-            Computer Science.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            I work with the <b className="bolditalicgreen">AgrAbility</b>  and <b className="bolditalicgreen">HARVEST </b> programs at Virginia Tech continuing my research in user-centered design in agriculture that I started at the University of Florida. In addition to addressing usability and accessibility of precision agriculture technologies, I am studying how to best utilize big data in agriculture while also protecting the privacy and security rights of the growers.
+            <br/>
+            My previous work in agriculture includes using hyperspectral imaging techniques to detect AMB in Fuji apples in Korea and creating a crowdsourcing platform to collect ground truth data on lambsquarters in Washington D.C. My work in agriculture was also featured in an episode of LabDaze .
+            <br/>
+            My technology policy work as a Media Democracy Fund (MDF) PhDX fellows included studying predicitive policing, pre-trial risk assessments, and how social media affects communities of color. This research resulted in numerous writings which can be found on Medium. Find my recent work in the link below.
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -26,7 +24,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
           {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
