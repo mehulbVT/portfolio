@@ -306,8 +306,8 @@ button:focus {
 }
 
 .profile-pic {
-  width: 800px;
-  height: 800px;
+  width: 1600px;
+  height: 1600px;
   object-fit: none;
   object-position: 60% 43%;
   zoom: 25%;
