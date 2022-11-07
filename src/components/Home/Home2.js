@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 import profilePhoto from "../../Assets/brianna.jpeg";
 
@@ -39,56 +37,6 @@ function Home2() {
           </Col>
 
         </Row>
-        {/* <Row>
-          <Col md={12} id="contact" className="home-about-social">
-            <h1>FIND US ON</h1>
-            <ul className="home-about-social-links">
-              <li className="s-icons">
-                <a
-                  href="mailto:mehulb@vt.edu"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillMail />
-                </a>
-              </li>
-              <li className="s-icons">
-                <a
-                  href="https://github.com/mehulbVT"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="s-icons">
-                <a
-                  href="https://www.linkedin.com/in/mehulb2203"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="s-icons">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-            <p>
-              Feel free to <span className="green">connect </span>with me
-            </p>
-          </Col>
-        </Row> */}
       </Container>
     </Container>
   );

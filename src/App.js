@@ -5,7 +5,8 @@ import Home from "./components/Home/Home";
 import Research from "./components/Research/Research";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Opportunities from "./components/Opportunities/Opportunities";
+import Contact from "./components/Contact/Contact";
 import {
   BrowserRouter as Router,
   Route,
@@ -16,7 +17,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Contact from "./components/Contact/Contact";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,7 +39,8 @@ function App() {
           <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/project" element={<Projects />} />
           <Route path="/portfolio/research" element={<Research />} />
-          <Route path="/portfolio/resume" element={<Resume />} />
+          <Route path="/portfolio/opportunities" element={<Opportunities />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<Navigate to="/portfolio/" />} />
         </Routes>

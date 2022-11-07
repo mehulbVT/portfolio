@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { HashLink } from "react-router-hash-link";
 import logo from "../Assets/logo.png";
 
 import { Link } from "react-router-dom";
@@ -14,7 +13,9 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import {
+  FaStar
+} from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -86,20 +87,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio/resume"
+                to="/portfolio/opportunities"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <FaStar style={{ marginBottom: "2px" }} /> Opportunities
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                as={HashLink}
-                to="home#contact"
+                as={Link}
+                to="/portfolio/contact"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
