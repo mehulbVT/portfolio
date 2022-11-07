@@ -3,9 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaResearchgate, FaGoogle } from "react-icons/fa";
 
-import profilePhoto from "../../Assets/team.png";
+import mehulPhoto from "../../Assets/Mehul.jpg";
+import shreyaPhoto from "../../Assets/shreya-mitra.jpeg";
+import shikharPhoto from "../../Assets/shikhar-poudel.jpeg";
 
 function Home3() {
   return (
@@ -26,9 +28,9 @@ function Home3() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src={profilePhoto}
+                src={shreyaPhoto}
                 className="img-fluid team-pic"
-                alt="team pic"
+                alt="shreya pic"
               />
             </Tilt>
           </Col>
@@ -45,9 +47,9 @@ function Home3() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src={profilePhoto}
+                src={shikharPhoto}
                 className="img-fluid team-pic"
-                alt="team pic"
+                alt="shikhar pic"
               />
             </Tilt>
           </Col>
@@ -64,7 +66,7 @@ function Home3() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src={profilePhoto}
+                src={mehulPhoto}
                 className="img-fluid team-pic"
                 alt="team pic"
               />
@@ -77,7 +79,7 @@ function Home3() {
             <ul className="home-about-social-links">
               <li className="s-icons">
                 <a
-                  href="mailto:mehulb@vt.edu"
+                  href="mailto:bposadas@vt.edu"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +89,7 @@ function Home3() {
               </li>
               <li className="s-icons">
                 <a
-                  href="https://github.com/mehulbVT"
+                  href="https://github.com/bbposadas"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +99,7 @@ function Home3() {
               </li>
               <li className="s-icons">
                 <a
-                  href="https://www.linkedin.com/in/mehulb2203"
+                  href="https://www.linkedin.com/in/briannaposadas/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -107,7 +109,27 @@ function Home3() {
               </li>
               <li className="s-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.researchgate.net/profile/Brianna_Posadas"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaResearchgate/>
+                </a>
+              </li>
+              <li className="s-icons">
+                <a
+                  href="https://scholar.google.com/citations?user=BITMIlgAAAAJ&hl=en&authuser=1"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaGoogle />
+                </a>
+              </li>
+              <li className="s-icons">
+                <a
+                  href="https://www.instagram.com/briposadas/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

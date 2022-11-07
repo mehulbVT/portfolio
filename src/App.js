@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import Research from "./components/Research/Research";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
@@ -38,7 +38,7 @@ function App() {
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/project" element={<Projects />} />
-          <Route path="/portfolio/about" element={<About />} />
+          <Route path="/portfolio/research" element={<Research />} />
           <Route path="/portfolio/resume" element={<Resume />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<Navigate to="/portfolio/" />} />

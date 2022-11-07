@@ -8,7 +8,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Expstack from "./Expstack";
 
-function About() {
+function Research() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -59,4 +59,4 @@ function About() {
   );
 }
 
-export default About;
+export default Research;
