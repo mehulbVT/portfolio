@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGoogle, FaResearchgate } from "react-icons/fa";
+import { FaLinkedinIn, FaGoogle, FaResearchgate, FaTwitterSquare } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -75,6 +75,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="s-icons">
+              <a
+                href="https://twitter.com/briposadas"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitterSquare />
               </a>
             </li>
           </ul>

@@ -39,7 +39,8 @@ function Home2() {
               to earn a doctorate from the department of <b className="bolditalicgreen">Computer and Information Science and Engineering</b>.
               <br />
               I received my master of science in agricultural and biological engineering also at UF and my bachelor of science in engineering from &nbsp;
-              <a className="bolditalicgreen" href="http://www.hmc.edu/" style={{ position: "relative" }} target="_blank" rel='noreferrer'>Harvey Mudd College</a>&nbsp;
+              <a className="bolditalicgreen" href="http://www.hmc.edu/" style={{ position: "relative" }} target="_blank" rel='noreferrer'>Harvey Mudd College</a>&nbsp;<br/>
+              Portfolio website: <a className="bolditalicgreen" href="https://bbposadas.github.io/" style={{ position: "relative" }} target="_blank" rel='noreferrer'> Website</a>
               
             </p>
           </Col>

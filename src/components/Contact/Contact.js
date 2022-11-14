@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { AiFillGithub, AiFillInstagram, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn, FaResearchgate, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaResearchgate, FaGoogle, FaTwitterSquare } from "react-icons/fa";
 
 import SimpleMap from "./Map";
 
@@ -74,6 +74,16 @@ function Contact() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="s-icons">
+                <a
+                  href="https://twitter.com/briposadas"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaTwitterSquare />
                 </a>
               </li>
             </ul>
