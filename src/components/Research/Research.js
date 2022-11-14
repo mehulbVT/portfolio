@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-// import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
 import Expstack from "./Expstack";
 
 function Research() {
@@ -42,7 +39,7 @@ function Research() {
 
         <Expstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Professional <strong className="green">Skillset </strong>
         </h1>
 
@@ -51,7 +48,7 @@ function Research() {
         <h1 className="project-heading">
           <strong className="green">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
         {/* <Github /> */}
       </Container>

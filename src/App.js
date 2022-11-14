@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Opportunities from "./components/Opportunities/Opportunities";
 import Contact from "./components/Contact/Contact";
+import News from "./components/News/News";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,7 +42,7 @@ function App() {
           <Route path="/portfolio/research" element={<Research />} />
           <Route path="/portfolio/opportunities" element={<Opportunities />} />
           <Route path="/portfolio/contact" element={<Contact />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/portfolio/news" element={<News />} />
           <Route path="*" element={<Navigate to="/portfolio/" />} />
         </Routes>
         <Footer />

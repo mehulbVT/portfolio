@@ -11,7 +11,7 @@ function Contact() {
     <section>
     <SimpleMap/>
     <Container fluid className="home-about-section" id="about">
-      <Container>
+      <Container  className="home-content">
         <Row>
           <Col md={12} id="contact" className="home-about-social">
             <h1>FIND US ON</h1>

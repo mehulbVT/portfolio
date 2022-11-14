@@ -4,7 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@iconify/icons-mdi": "^1.2.32",
     "@iconify/react": "^4.0.0",
+    "@react-google-maps/api": "^2.16.1",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -16,6 +19,7 @@
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
     "react-github-calendar": "^3.2.2",
+    "react-google-maps": "^9.4.5",
     "react-icons": "^4.4.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
@@ -23,6 +27,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.42.2",
+    "react-twitter-embed": "^4.0.4",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
